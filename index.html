@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+</head>
+
+<style>
+    h1,
+    p {
+        text-align: center;
+    }
+    body{
+        background: #FFEAC9;
+    }
+
+    #memory {
+        background: black;
+        width: 535px;
+        padding: 8px;
+        height: 404px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 130px);
+        grid-gap: 5px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    span {
+        height: 130px;
+        
+    }
+</style>
+
+<body>
+    <h1>Memory game</h1>
+    <p>Score:<span id="score">0</span></p>
+    <div id="memory">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+        <img src="images/ques.png" alt="">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
